@@ -1,4 +1,4 @@
-Python globals()
+# Para que serve a função globals() em Python?
 
 A função globals() retorna um dicionário que contém todas as variáveis globais disponíveis no escopo atual do programa. Aqui está um exemplo simples de como você pode usá-la:
 
@@ -25,6 +25,6 @@ __doc__: None
 __package__: None
 global_var1: 42
 global_var2: Hello, world
-...
+```
 
 Observe que, além das variáveis que definimos, globals() também inclui outras variáveis especiais relacionadas ao ambiente de execução do programa, como __name__, __doc__, e __package__.
