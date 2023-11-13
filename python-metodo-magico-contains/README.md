@@ -7,7 +7,7 @@ class MinhaListaPersonalizada:
         self.elementos = elementos
 
     def __contains__(self, item):
-        # Sobrescreva este método conforme necessário para personalizar o comportamento do operador "in"
+        # Sobrescreva este método conforme necessário
         return item in self.elementos
 
 # Exemplo de uso
