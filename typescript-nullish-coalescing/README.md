@@ -17,4 +17,4 @@ console.log(`Tamanho de Fonte Selecionado: ${selectedFontSize}`);
 
 ```
 
-Neste trecho, a variável selectedFontSize recebe o valor de userSettings.fontSize apenas se userSettings.fontSize não for nulo ou indefinido; caso contrário, ela assume o valor padrão de 16. Essa sintaxe concisa melhora a legibilidade do código e reduz a necessidade de instruções condicionais tradicionais.
+Neste exemplo, a variável selectedFontSize recebe o valor de userSettings.fontSize apenas se userSettings.fontSize não for nulo ou indefinido; caso contrário, ela assume o valor padrão de 16. Essa sintaxe concisa melhora a legibilidade do código e reduz a necessidade de instruções condicionais tradicionais.
