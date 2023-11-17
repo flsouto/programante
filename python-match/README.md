@@ -1,4 +1,4 @@
-# Implementando Match do PHP no Python
+# Como implementaar Match do PHP no Python?
 
 A função match no PHP 8 é uma função que permite fazer comparações complexas em uma única expressão, semelhante a uma instrução switch. Ela foi introduzida para melhorar a legibilidade e a facilidade de uso em comparações de valores múltiplos. Embora outras linguagens de programação tenham construções semelhantes, o nome e a sintaxe exata podem variar de uma linguagem para outra. Vou destacar algumas linguagens que possuem funcionalidades semelhantes:
 

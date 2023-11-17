@@ -1,4 +1,4 @@
-# TypeScript Generics
+# Como usar Generics no TypeScript?
 
 Vamos considerar um cenário de comércio eletrônico em que você deseja criar um carrinho de compras genérico em TypeScript. Um carrinho de compras pode conter vários tipos de produtos, como eletrônicos, roupas, alimentos, etc. Você pode usar generics para criar um carrinho de compras que seja flexível o suficiente para lidar com diferentes tipos de produtos.
 

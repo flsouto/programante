@@ -1,4 +1,4 @@
-# Desvendando o Nullish Coalescing no TypeScript
+# O que é o Nullish Coalescing no TypeScript?
 
 Recentemente, o TypeScript introduziu uma funcionalidade poderosa conhecida como "Nullish Coalescing," proporcionando aos desenvolvedores uma maneira concisa e clara de lidar com valores padrão para variáveis nulas ou indefinidas. O nullish coalescing (??) é particularmente útil quando você deseja atribuir um valor padrão apenas se uma variável for nula ou indefinida, em oposição a valores falsos como strings vazias ou zero.
 

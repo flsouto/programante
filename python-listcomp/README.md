@@ -1,4 +1,4 @@
-# Python List Comprehension
+# O que são List Comprehensions no Python?
 
 List comprehensions são uma ferramenta útil em Python para criar listas de maneira concisa e elegante. Elas podem ser aplicadas a diversos tipos de problemas, incluindo aqueles relacionados a comércio. Vou te mostrar um exemplo de como usar list comprehension para resolver um problema simples relacionado a comércio: calcular o total de vendas de produtos que custam mais de R$ 100,00.
 

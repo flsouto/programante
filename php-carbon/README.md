@@ -1,4 +1,4 @@
-# Usando Carbon para calcular idade no PHP
+# Como usar Carbon para calcular idade no PHP?
 
 Carbon é uma popular biblioteca de manipulação de datas e horas para PHP que estende a funcionalidade da classe `DateTime`. Vamos usar o Carbon para calcular a diferença de idade entre duas datas, em vez de usar a classe `DateTime`. Certifique-se de ter a biblioteca Carbon instalada para usar este exemplo. Você pode instalá-la via Composer.
 
