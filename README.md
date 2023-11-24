@@ -39,5 +39,7 @@
 ###  Como usar DateTime no PHP?
 [Veja a resposta](php-datetime/README.md) 
 ## Questões de nodejs
+###  Como verificar se um arquivo existe num bucket da s3 usando Node.js?
+[Veja a resposta](nodejs-s3-check-file-exists/README.md) 
 ###  Como armazenar arquivo json no S3 a partir de uma função lambda em Node.js?
 [Veja a resposta](nodejs-aws-lambda-s3/README.md) 
