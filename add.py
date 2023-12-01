@@ -20,7 +20,7 @@ with open(readmef, "w") as f:
 
 from subprocess import check_output
 def run(*args):
-    print(checkout_output(args))
+    print(check_output(args))
 
 run("python3", "mkreadme.py")
 run("git","add",readmef)

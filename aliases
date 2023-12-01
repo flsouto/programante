@@ -1,0 +1,3 @@
+alias add='python3 add.py '
+alias sus='./set-user.sh '
+alias mkr="python3 mkreadme.py "
