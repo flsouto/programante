@@ -1,8 +1,10 @@
 import glob
 from pathlib import Path
 import re
+from random import shuffle
 
 readmes = glob.glob("*/README.md")
+shuffle(readmes)
 
 groups = {}
 
