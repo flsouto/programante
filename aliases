@@ -2,4 +2,4 @@ alias add='python3 add.py '
 alias setuser='./set-user.sh '
 alias mkreadme="python3 mkreadme.py "
 alias push="git add -u; git commit -m 'improvements'; git push origin master;git status -s"
-
+alias setu="python3 setu.py"
