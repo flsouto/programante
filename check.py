@@ -7,7 +7,7 @@ def run(*args):
 
 pending = glob("*/pending")
 
-if not argv[1]:
+if len(argv) < 2:
 
     for i,f in enumerate(pending):
         print("{} - {}".format(i, f))

@@ -16,9 +16,11 @@ content = "#{}\n".format(title.title()) + sys.stdin.read();
 
 readmef = path / "README.md"
 pendingf = path / "pending"
+pendingf.touch()
 
 with open(readmef, "w") as f:
     f.write(content)
+
 
 from subprocess import check_output
 def run(*args):
