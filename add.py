@@ -27,6 +27,7 @@ def run(*args):
     print(check_output(args))
 
 run("python3", "mkreadme.py")
+run("git","add","-u")
 run("git","add",readmef)
 run("git","add",pendingf)
 run("git","add","README.md")
