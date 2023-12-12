@@ -33,3 +33,4 @@ run("git","add","README.md")
 run("git","commit","-m","Add tutorial: "+title)
 run("git","push","origin","master")
 
+print(readmef)
