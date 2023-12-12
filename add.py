@@ -15,6 +15,8 @@ print("content:")
 content = "#{}\n".format(title.title()) + sys.stdin.read();
 
 readmef = path / "README.md"
+pendingf = path / "pending"
+
 with open(readmef, "w") as f:
     f.write(content)
 
@@ -24,6 +26,7 @@ def run(*args):
 
 run("python3", "mkreadme.py")
 run("git","add",readmef)
+run("git","add",pendingf)
 run("git","add","README.md")
 run("git","commit","-m","Add tutorial: "+title)
 run("git","push","origin","master")
