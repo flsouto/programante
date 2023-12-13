@@ -12,7 +12,7 @@ if not path.exists(): path.mkdir()
 
 import sys
 print("content:")
-content = "#{}\n".format(title.title()) + sys.stdin.read();
+content = "#{}\n".format(title) + sys.stdin.read();
 
 readmef = path / "README.md"
 pendingf = path / "pending"

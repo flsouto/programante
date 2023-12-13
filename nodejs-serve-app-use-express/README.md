@@ -1,4 +1,4 @@
-# Para Que Serve O App.Use Do Express?
+# Para que serve o app.use do Express?
 O `app.use` no Express.js é uma função que é usada para montar middleware no pipeline de requisições. Middleware são funções que têm acesso ao objeto de requisição (`req`), ao objeto de resposta (`res`) e à próxima função de middleware no ciclo de requisição-resposta do Express (`next`). Essas funções podem realizar tarefas, modificar objetos de requisição e resposta, encerrar o ciclo ou chamar a próxima função de middleware no pipeline.
 
 A assinatura básica da função `app.use` é a seguinte:
